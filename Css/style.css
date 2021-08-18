@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+}
+
+.body {
+  background-color: #E5E5E5;
+}
+
+.signup_signin {
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-left: 214px;
+  overflow: hidden;
+}
+
+.signup_signin .box1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-right: 45px;
+  padding-top: 274px;
+}
+
+.signup_signin .box1 h3 {
+  font-size: 100px;
+  color: #02569C;
+}
+
+.signup_signin .box1 .box1_logo {
+  max-width: 310px;
+  height: 80px;
+  margin: 60px 0 60px 0;
+}
+
+.signup_signin .box1 .box1_logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+.signup_signin .box1 p {
+  font-size: 26px;
+  color: #939597;
+  margin-bottom: 60px;
+  max-width: 314px;
+}
+
+.signup_signin .box1 .for_buttons button {
+  width: 365px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.signup_signin .box1 .for_buttons button a {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.signup_signin .box1 .for_buttons .first_button {
+  background-color: #02569C;
+  border: none;
+}
+
+.signup_signin .box1 .for_buttons .first_button a {
+  color: #FFFFFF;
+}
+
+.signup_signin .box1 .for_buttons .second_button {
+  border: 1px solid #02569C;
+  margin-left: 16px;
+}
+
+.signup_signin .box1 .for_buttons .second_button a {
+  color: #02569C;
+}
+
+.signup_signin .box2 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.signup_signin .box2 .box2_svg {
+  padding-bottom: 30px;
+  max-width: 1074px;
+  max-height: 1118px;
+  margin-right: -180px;
+}
+
+.signup_signin .box2 .box2_svg svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1830px) {
+  .signup_signin {
+    padding-left: 150px;
+  }
+  .signup_signin .box1 h3 {
+    font-size: 90px;
+  }
+  .signup_signin .box1 .box1_logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .signup_signin .box1 p {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  .signup_signin .box1 .for_buttons button {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1690px) {
+  .signup_signin {
+    padding-left: 90px;
+  }
+  .signup_signin .box1 {
+    padding-bottom: 288px;
+  }
+  .signup_signin .box1 .box1_logo {
+    width: 254px;
+    height: 64px;
+  }
+  .signup_signin .box1 .for_buttons {
+    margin-right: 25px;
+  }
+  .signup_signin .box1 .for_buttons button {
+    width: 300px;
+    height: 60px;
+  }
+  .signup_signin .box2 .box2_svg {
+    max-width: 880px;
+    max-height: 880px;
+  }
+}
+
+@media screen and (max-width: 1545px) {
+  .signup_signin {
+    padding-left: 150px;
+  }
+  .signup_signin .box1 {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    padding-bottom: 50px;
+  }
+  .signup_signin .box1 h3 {
+    font-size: 80px;
+  }
+  .signup_signin .box1 p {
+    font-size: 24px;
+  }
+  .signup_signin .box2 {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .signup_signin .box1 {
+    padding-top: 80px;
+  }
+  .signup_signin .box2 {
+    padding-top: 30px;
+    margin-right: -50px;
+  }
+  .signup_signin .box2 .box2_svg {
+    min-width: 400px;
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .signup_signin .box1 h3 {
+    font-size: 60px;
+  }
+  .signup_signin .box1 p {
+    font-size: 22px;
+  }
+  .signup_signin .box1 .box1_logo {
+    width: 245px;
+    height: 66px;
+  }
+  .signup_signin .box1 .for_buttons {
+    margin-right: 25px;
+  }
+  .signup_signin .box1 .for_buttons button {
+    width: 300px;
+    height: 50px;
+  }
+  .signup_signin .box2 .box2_svg {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1315px) {
+  .signup_signin .box1 h3 {
+    font-size: 50px;
+  }
+  .signup_signin .box1 .for_buttons {
+    margin-right: 25px;
+  }
+  .signup_signin .box1 .for_buttons button {
+    width: 280px;
+    height: 45px;
+  }
+  .signup_signin .box1 .for_buttons button a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1205px) {
+  .signup_signin {
+    padding-left: 50px;
+  }
+  .signup_signin .box1 {
+    margin-right: unset;
+  }
+  .signup_signin .box2 .first_button button {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .signup_signin {
+    padding-left: 25px;
+  }
+  .signup_signin .box1 .first_button button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .signup_signin {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .signup_signin .box1 {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .signup_signin .box2 {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-bottom: unset;
+  }
+  .signup_signin .box2 .box2_svg {
+    margin-right: -75px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .signup_signin .box1 {
+    text-align: center;
+    margin-right: unset;
+  }
+  .signup_signin .box1 h3 {
+    font-size: 40px;
+  }
+  .signup_signin .box1 .box1_logo {
+    width: 215px;
+    height: 60px;
+    margin: 40px auto;
+  }
+  .signup_signin .box1 p {
+    font-size: 16px;
+    max-width: unset;
+  }
+  .signup_signin .box2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 30px;
+  }
+  .signup_signin .box2 .box2_svg {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: unset;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .signup_signin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    margin: 25% auto;
+  }
+  .signup_signin .box1 .for_buttons {
+    margin-right: unset;
+  }
+  .signup_signin .box1 .for_buttons button {
+    width: 300px;
+    height: 50px;
+  }
+  .signup_signin .box1 .for_buttons button a {
+    font-size: 18px;
+  }
+  .signup_signin .box1 .for_buttons .second_button {
+    margin-left: unset;
+    margin-top: 40px;
+  }
+  .signup_signin .box2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .signup_signin {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .signup_signin .box1 h3 {
+    font-size: 30px;
+  }
+  .signup_signin .box1 .box1_logo {
+    width: 180px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .signup_signin .box1 .for_buttons button {
+    width: 250px;
+    height: 35px;
+  }
+  .signup_signin .box1 .for_buttons button a {
+    font-size: 15px;
+  }
+  .signup_signin .box1 .for_buttons .second_button {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .signup_signin {
+    margin: 10% auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
